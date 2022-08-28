@@ -1,0 +1,106 @@
+p {
+  font-family: Montserrat;
+}
+
+body {
+  font-family: Fraunces;
+  background-color: hsl(30, 38%, 92%);
+}
+
+.attribution {
+  padding-top: 30px;
+}
+
+.item-img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.box {
+  width: 500px;
+  height: 375px;
+  margin: 110px auto 0 auto;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 8px;
+}
+
+.img {
+  display: inline-block;
+  width: 50%;
+}
+
+.info {
+  margin-top: 20px;
+  float: right;
+  width: 38%;
+  margin: 20px 30px 20px 30px;
+}
+
+.category {
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 5px;
+  font-size: 9px;
+}
+
+.name {
+  line-height: 1;
+  color: hsl(212, 21%, 14%);
+  font-size: 26px;
+  font-weight: 700;
+  font-family: Fraunces,inherit;
+}
+
+.desc {
+  color: hsl(228, 12%, 48%);
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.8;
+  padding-right: 5px;
+}
+
+.price {
+  color: hsl(158, 36%, 37%);
+  font-family: Fraunces;
+  font-weight: 700;
+  font-size: 26px;
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+.dc-price {
+  color: hsl(228, 12%, 48%);
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 10px;
+  text-decoration: line-through;
+  display: inline-block;
+  float: right;
+  margin-top: 27px;
+  padding-right: 30px;
+}
+
+.icon {
+  padding-right: 10px;
+  width: 12px;
+  height: 12px;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  background: hsl(158, 36%, 37%);
+  padding: 10px 48px 10px 48px;
+  text-decoration: none;
+  font-family: Montserrat;
+  margin: auto;
+}
+
+.btn:hover {
+  background: hsl(212, 21%, 14%);
+  text-decoration: none;
+}
